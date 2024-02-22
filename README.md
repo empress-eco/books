@@ -1,99 +1,88 @@
 <div align="center">
-    <a href="https://empress.eco/">
-        <img src="https://avatars.githubusercontent.com/u/46308912?s=96&v=4" height="50">
-    </a>
-    <h2>Empress Finance</h2>
-    <p align="center">
-        <p>Secure Your Finances.</p>
+    <img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" height="100">
+    <h1>Empress Finance: Secure Your Finances</h1>
+    <p>
+    A comprehensive bookkeeping tool for the modern freelancer and small business.
+    <br />
+    <a href="https://empress.eco/product/finance/"><strong>Explore the Documentation »</strong></a>
+    <br />
+    <a href="https://github.com/empress-eco/finance/issues">Report Bugs</a>
+    ·
+    <a href="https://github.com/empress-eco/finance/issues">Request Features</a>
     </p>
-
-[https://empress.eco/product/finance/](https://empress.eco/product/finance/)
-
 </div>
 
-## Features
+## About The Project
 
-Empress Finance offers comprehensive bookkeeping for the modern freelancer and small business. Our features include:
+Empress Finance is a robust and secure bookkeeping tool designed to meet the needs of modern freelancers and small businesses. From customizable invoicing and billing to detailed financial reporting, Empress Finance is your one-stop solution for financial management.
+
+### Key Features
 
 - Double-entry accounting
-- Customizable invoicing and billing
+- Invoicing and billing, customizable to fit your needs
 - Payment tracking
 - Journal entries
 - Interactive dashboard
 - Offline functionality
 - Detailed financial reporting (General Ledger, Profit and Loss Statement, Balance Sheet, Trial Balance)
 
-## Installation
+### Built With
 
-Empress Finance can be downloaded from the [releases page](https://github.com/Empress/finance/releases) or our [official website](https://empressfinance.com/download).
+Empress Finance leverages the power of modern technologies:
 
-## Development
+- [Vue.js](https://vuejs.org/)
+- [Electron](https://www.electronjs.org/)
+- [SQLite](https://www.sqlite.org/index.html)
 
-Built with Vue.js and Electron, Empress Finance prioritizes security with offline capabilities and local database storage using SQLite.
+## Getting Started
 
-### Getting Started
+### Prerequisites
 
-1. **Pre-requisites**: Ensure Node.js (v16.14.0) and npm are installed. We recommend using [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) for installation. Yarn is also required and can be installed from [here](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable).
+Ensure Node.js (v16.14.0) and npm are installed. We recommend using [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) for installation. Yarn is also required and can be installed from [here](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable).
 
-2. **Setup**:
+### Installation
 
-Clone the repository
-
-```bash
-git clone https://github.com/empress-eco/books.git
+1. Clone the repository:
+```sh
+git clone https://github.com/empress-eco/finance.git
 ```
-
-Change directory
-
-```bash
-cd books
+2. Navigate to the directory:
+```sh
+cd finance
 ```
-
-Install dependencies
-
-```bash
+3. Install dependencies:
+```sh
 yarn
 ```
-
-**Run in Development Mode**:
-
-```bash
+4. Run in development mode:
+```sh
 yarn dev
 ```
-
-Note: On first boot, the UI may take a moment to render due to individual file serving in development mode.
-
-**Build for Production**:
-
-```bash
+5. Build for production:
+```sh
 yarn build
 ```
 
-To build for different platforms, refer to the [electron.build/cli](https://www.electron.build/cli) documentation.
+## Usage
 
-## Contributions and Community
+Empress Finance provides an interactive dashboard for managing finances, tracking payments, and generating detailed reports. 
 
-Empress Finance thrives on community contributions. Here's how you can help:
+## Contributing
 
-- Report bugs or suggest features by raising an issue.
-- Contribute to translations and help us expand our language support.
-- Join our community for discussions.
-- Check our Contribution Guidelines for more ways to contribute.
+We welcome contributions that make Empress Finance even better! Here's how you can contribute:
 
-## Additional Links
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-- Community Forum: Our primary spot for discussions and community support.
-- Developer Blog: Follow our development journey and updates.
-- Translation Contributions: Help us make Empress Finance accessible worldwide.
+## License and Acknowledgments
 
-## Maintainers
+### License
 
-Empress Finance is maintained with ❤️ by the Empress team and our vibrant community.
+This project is under the MIT License. Your contributions are also licensed under the MIT License.
 
-## License
+### Acknowledgments
 
-Empress Finance is released under the [GNU Affero General Public License v3.0](LICENSE), continuing our commitment to open-source software.
-
-## Acknowledgments
-
-Empress Finance is built upon the foundation of Frappe Books by Frappe Technologies Pvt Ltd and its contributors. We are grateful for their pioneering work and contributions to the open-source community.
+Empress Finance is built upon the foundation of Empress Books by Empress Technologies Pvt Ltd and its contributors. We are profoundly grateful for their pioneering work and contributions to the open-source community.
